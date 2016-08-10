@@ -1,4 +1,4 @@
-// Package waitgroup provides a WaitGroup with a channel based Wait() method.
+// Package waitgroup provides a `sync.WaitGroup` equivalent with a channel based `Wait()` method.
 package waitgroup
 
 import "sync"

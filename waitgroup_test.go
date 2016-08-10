@@ -36,7 +36,7 @@ func TestWaitDoesNotTickWhenDoneIsnotCalled(t *testing.T) {
 	}
 }
 
-func ExampleWait() {
+func ExampleWaitGroup() {
 	var wg waitgroup.WaitGroup
 	wg.Add(5)
 	for i := 0; i < 5; i++ {
